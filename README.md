@@ -9,7 +9,7 @@ if the pivot value chosen at each step is "bad" due to starting
 with an already-sorted or nearly-sorted list, the runtime can be 
 as bad as O(n^2). The problem of bad choice of partition can be
 mitigated by, instead of choosing a particular array index as the 
-pivot each time, the pivot is chosen strategically by taking the median
+pivot each time, choosing the pivot strategically by taking the median
 of three array values or chosen randomly. 
 
 Consider choosing the median of three array values as the pivot.
